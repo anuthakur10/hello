@@ -1,0 +1,341 @@
+HTML Questions
+1. What is HTML?
+Answer: HTML (HyperText Mark Markup Language) is the standard markup language used to create and design web pages. It structures web content using elements and tags.
+
+2. What are HTML tags?
+Answer: HTML tags are the building blocks of HTML. They define elements and their content within a webpage. Tags are enclosed in angle brackets, e.g., <tagname>content</tagname>.
+
+3. What is the purpose of the <head> element in HTML?
+Answer: The <head> element contains meta-information about the document, such as the document title, character set, styles, and links to scripts.
+
+4. What is the difference between <div> and <span>?
+Answer: <div> is a block-level element used to group content and create layout sections, while <span> is an inline element used to style or group inline content.
+
+5. What is the purpose of the <meta> tag?
+Answer: The <meta> tag provides metadata about the HTML document, such as the character set, author, and viewport settings.
+
+6. How do you include CSS in an HTML document?
+Answer: CSS can be included in an HTML document using three methods:
+
+Inline: <element style="property: value;">
+Internal: <style> CSS rules </style>
+External: <link rel="stylesheet" href="styles.css">
+7. What is the purpose of the <form> element?
+Answer: The <form> element is used to create an HTML form for user input. It can contain input fields, buttons, and other elements used to collect user data.
+
+8. What are input types available in HTML5?
+Answer: HTML5 introduced several new input types, including email, url, date, number, range, color, search, and tel.
+
+9. What is the difference between id and class attributes in HTML?
+Answer: The id attribute uniquely identifies a single element on a page, while the class attribute can be used to identify multiple elements and apply the same styles or behaviors.
+
+10. What is the alt attribute in an <img> tag?
+Answer: The alt attribute provides alternative text for an image if it cannot be displayed. It improves accessibility and SEO.
+
+11. What is the purpose of the <title> tag?
+Answer: The <title> tag specifies the title of the HTML document, which appears in the browser’s title bar or tab.
+
+12. What is the DOCTYPE declaration?
+Answer: The DOCTYPE declaration defines the document type and version of HTML being used. It ensures that the document is rendered correctly by the browser.
+
+13. What are semantic HTML elements?
+Answer: Semantic HTML elements provide meaning to the content and structure of a webpage. Examples include <header>, <footer>, <article>, and <section>.
+
+14. How can you create a hyperlink in HTML?
+Answer: Use the <a> tag with the href attribute to create a hyperlink. Example: <a href="https://example.com">Link</a>.
+
+15. What is the purpose of the <iframe> element?
+Answer: The <iframe> element embeds another HTML document within the current document. It is often used to display external content.
+
+16. How can you create an ordered list in HTML?
+Answer: Use the <ol> tag to create an ordered list, and <li> tags to define list items. Example:
+
+html
+Copy code
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+</ol>
+17. How can you create an unordered list in HTML?
+Answer: Use the <ul> tag to create an unordered list, and <li> tags to define list items. Example:
+
+html
+Copy code
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+</ul>
+18. What is the <canvas> element used for?
+Answer: The <canvas> element is used to draw graphics on the fly via JavaScript. It provides a surface for dynamic, scriptable rendering of 2D shapes and bitmap images.
+
+19. What is the difference between <strong> and <b> tags?
+Answer: The <strong> tag is used to indicate that text is of strong importance, typically rendering as bold. The <b> tag simply styles text as bold without implying importance.
+
+20. What is the placeholder attribute in HTML?
+Answer: The placeholder attribute provides a hint or short description within an input field that disappears when the user starts typing.
+
+21. What is the required attribute in HTML forms?
+Answer: The required attribute specifies that an input field must be filled out before submitting the form. It prevents form submission if the field is empty.
+
+22. How do you define a table in HTML?
+Answer: Define a table using the <table> element. Use <tr> for table rows, <th> for table headers, and <td> for table data cells. Example:
+
+html
+Copy code
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+</table>
+23. What is the colspan attribute in HTML tables?
+Answer: The colspan attribute specifies the number of columns a cell should span in a table. Example: <td colspan="2">Cell spanning two columns</td>.
+
+24. What is the rowspan attribute in HTML tables?
+Answer: The rowspan attribute specifies the number of rows a cell should span. Example: <td rowspan="2">Cell spanning two rows</td>.
+
+25. How do you include comments in HTML?
+Answer: Comments in HTML are included using <!-- comment -->. Example: <!-- This is a comment -->.
+
+26. What is the data-* attribute in HTML?
+Answer: The data-* attribute is used to store custom data private to the page or application. Example: <div data-role="admin">Admin Panel</div>.
+
+27. What are HTML entities?
+Answer: HTML entities are special characters represented by names or codes in HTML. For example, &amp; represents an ampersand (&).
+
+28. What is the target attribute in an <a> tag?
+Answer: The target attribute specifies where to open the linked document. Common values include _self, _blank, _parent, and _top.
+
+29. What is the action attribute in HTML forms?
+Answer: The action attribute specifies the URL where the form data will be sent when the form is submitted.
+
+30. What is the method attribute in HTML forms?
+Answer: The method attribute specifies the HTTP method (GET or POST) the browser uses to submit the form data.
+
+31. What is the label element used for in HTML?
+Answer: The <label> element is used to define labels for input elements, improving form accessibility. It associates text with form controls.
+
+32. How do you create a dropdown menu in HTML?
+Answer: Use the <select> element along with <option> elements to create a dropdown menu. Example:
+
+html
+Copy code
+<select>
+  <option value="option1">Option 1</option>
+  <option value="option2">Option 2</option>
+</select>
+33. What is the <fieldset> element in HTML?
+Answer: The <fieldset> element groups related elements within a form and is often used with <legend> to provide a caption for the grouped elements.
+
+34. What is the <legend> element used for in HTML?
+Answer: The <legend> element represents a caption for the content of its parent <fieldset>, providing a label for a group of form controls.
+
+35. What is the autofocus attribute in HTML?
+Answer: The autofocus attribute specifies that an input field should automatically receive focus when the page loads.
+
+36. How do you specify a character set in HTML?
+Answer: Use the <meta charset="UTF-8"> tag in the <head> section to specify the character encoding for the document.
+
+37. What is the http-equiv attribute in the <meta> tag?
+Answer: The http-equiv attribute provides HTTP headers in the meta tag, such as Content-Type or refresh.
+
+38. How do you create a button in HTML?
+Answer: Use the <button> element to create a button. Example: <button type="button">Click me</button>.
+
+39. What is the value attribute in HTML input elements?
+Answer: The value attribute specifies the value of an input element. It defines the initial value for the input field and is submitted with the form.
+
+40. How do you add an image to a webpage?
+Answer: Use the <img> tag with the src attribute to specify the image URL and alt attribute to provide alternative text. Example: <img src="image.jpg" alt="Description">.
+
+CSS Questions
+41. What is CSS?
+Answer: CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in HTML or XML. It controls layout, colors, fonts, and more.
+
+42. What are selectors in CSS?
+Answer: Selectors are patterns used to select the elements you want to style. Examples include type selectors (p), class selectors (.class), and ID selectors (#id).
+
+43. What is the difference between class and id selectors in CSS?
+Answer: class selectors (.class) can be applied to multiple elements and allow for reusable styles, while id selectors (#id) are unique and should only be applied to one element per page.
+
+44. What is the box model in CSS?
+Answer: The box model describes how elements are structured and sized, consisting of margins, borders, padding, and content. It defines the space an element takes up on a page.
+
+45. What is the display property in CSS?
+Answer: The display property specifies how an element is displayed on the page. Common values include block, inline, inline-block, and none.
+
+46. What is the position property in CSS?
+Answer: The position property specifies the positioning method used for an element. Values include static, relative, absolute, fixed, and sticky.
+
+47. What is the float property in CSS?
+Answer: The float property specifies whether an element should float to the left or right, allowing text and inline elements to wrap around it.
+
+48. What is the clear property in CSS?
+Answer: The clear property specifies whether an element should be moved below floating elements. Values include left, right, and both.
+
+49. What is the z-index property in CSS?
+Answer: The z-index property controls the stacking order of positioned elements. Higher values are displayed in front of lower values.
+
+50. What is a media query in CSS?
+Answer: A media query allows you to apply styles based on the device’s characteristics, such as screen width, height, or orientation. Example:
+
+css
+Copy code
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+51. What is the opacity property in CSS?
+Answer: The opacity property specifies the transparency level of an element. Values range from 0 (fully transparent) to 1 (fully opaque).
+
+52. What are pseudo-classes in CSS?
+Answer: Pseudo-classes are keywords added to selectors that specify a special state of the element. Examples include :hover, :focus, and :nth-child().
+
+53. What are pseudo-elements in CSS?
+Answer: Pseudo-elements are keywords added to selectors that style specific parts of an element. Examples include ::before and ::after.
+
+54. What is the flexbox layout model in CSS?
+Answer: Flexbox is a layout model that allows for the alignment and distribution of space among items in a container, even when their size is unknown. It provides a more efficient way to lay out, align, and distribute space.
+
+55. What is the grid layout model in CSS?
+Answer: The grid layout model is a two-dimensional layout system that provides a way to design complex layouts with rows and columns. It allows for precise control over the placement and sizing of elements.
+
+56. What is the transform property in CSS?
+Answer: The transform property applies a transformation to an element, such as rotating, scaling, or translating it. Example: transform: rotate(45deg);.
+
+57. What is the transition property in CSS?
+Answer: The transition property provides a way to animate changes to CSS properties smoothly over a specified duration. Example: transition: background-color 0.3s ease;.
+
+58. What is the animation property in CSS?
+Answer: The animation property allows you to define animations using keyframes. It controls the timing, duration, and sequence of animations.
+
+59. What are CSS custom properties (variables)?
+Answer: CSS custom properties (variables) are values that can be reused throughout a CSS file. They are defined using --variable-name and accessed with var(--variable-name).
+
+60. What is the box-shadow property in CSS?
+Answer: The box-shadow property adds shadow effects around an element’s frame. Example: box-shadow: 10px 10px 5px rgba(0,0,0,0.3);.
+
+61. What is the border-radius property in CSS?
+Answer: The border-radius property defines the radius of an element’s corners, allowing you to create rounded corners. Example: border-radius: 10px;.
+
+62. What is the background property in CSS?
+Answer: The background property is a shorthand for setting multiple background properties, including background-color, background-image, background-repeat, background-position, and background-size.
+
+63. What is the font-family property in CSS?
+Answer: The font-family property specifies the typeface for text. It can accept multiple font names, with the browser using the first available one. Example: font-family: Arial, sans-serif;.
+
+64. What is the font-size property in CSS?
+Answer: The font-size property sets the size of the font. It can use values like px, em, rem, or percentage. Example: font-size: 16px;.
+
+65. What is the text-align property in CSS?
+Answer: The text-align property specifies the horizontal alignment of text within its container. Values include left, right, center, and justify.
+
+66. What is the vertical-align property in CSS?
+Answer: The vertical-align property specifies the vertical alignment of inline or table-cell elements. Values include top, middle, bottom, and percentage values.
+
+67. What is the line-height property in CSS?
+Answer: The line-height property defines the amount of space between lines of text. It can be specified using values like px, em, or as a unitless number.
+
+68. What is the text-decoration property in CSS?
+Answer: The text-decoration property specifies decoration added to text, such as underline, overline, or line-through.
+
+69. What is the text-transform property in CSS?
+Answer: The text-transform property controls the capitalization of text. Values include uppercase, lowercase, and capitalize.
+
+70. What is the white-space property in CSS?
+Answer: The white-space property controls how white space inside an element is handled. Values include normal, nowrap, pre, and pre-wrap.
+
+71. What is the overflow property in CSS?
+Answer: The overflow property specifies what should happen if the content overflows its container. Values include visible, hidden, scroll, and auto.
+
+72. What is the clip property in CSS?
+Answer: The clip property defines a clipping region for an absolutely positioned element, specifying what part of the element is visible.
+
+73. What is the position property in CSS?
+Answer: The position property specifies the positioning method used for an element. Values include static, relative, absolute, fixed, and sticky.
+
+74. What is the visibility property in CSS?
+Answer: The visibility property controls the visibility of an element. Values include visible, hidden, and collapse.
+
+75. What is the text-shadow property in CSS?
+Answer: The text-shadow property adds shadow effects to text. Example: text-shadow: 2px 2px 4px rgba(0,0,0,0.5);.
+
+76. What is the background-image property in CSS?
+Answer: The background-image property sets an image as the background of an element. Example: background-image: url('background.jpg');.
+
+77. What is the background-size property in CSS?
+Answer: The background-size property specifies the size of the background image. Values include cover, contain, or specific dimensions like 100px 100px.
+
+78. What is the background-repeat property in CSS?
+Answer: The background-repeat property specifies if and how the background image is repeated. Values include repeat, no-repeat, repeat-x, and repeat-y.
+
+79. What is the background-position property in CSS?
+Answer: The background-position property sets the initial position of a background image. Values can be keywords (top, center, bottom), percentages, or lengths.
+
+80. What is the box-sizing property in CSS?
+Answer: The box-sizing property defines how the width and height of an element are calculated. Values include content-box and border-box.
+
+81. What is the justify-content property in CSS Flexbox?
+Answer: The justify-content property aligns flex items along the main axis of a flex container. Values include flex-start, center, space-between, space-around, and space-evenly.
+
+82. What is the align-items property in CSS Flexbox?
+Answer: The align-items property aligns flex items along the cross axis of a flex container. Values include flex-start, center, flex-end, baseline, and stretch.
+
+83. What is the align-self property in CSS Flexbox?
+Answer: The align-self property allows the default alignment of a flex item to be overridden. It accepts values like auto, flex-start, center, flex-end, baseline, and stretch.
+
+84. What is the grid-template-columns property in CSS Grid?
+Answer: The grid-template-columns property defines the column structure of a grid container. Values can be specific widths, percentages, or repeat() for repetitive patterns.
+
+85. What is the grid-template-rows property in CSS Grid?
+Answer: The grid-template-rows property defines the row structure of a grid container. Values can be specific heights, percentages, or repeat() for repetitive patterns.
+
+86. What is the grid-area property in CSS Grid?
+Answer: The grid-area property specifies a grid item's size and location within a grid layout, using values for grid lines or named areas.
+
+87. What is the grid-gap property in CSS Grid?
+Answer: The grid-gap property defines the spacing between rows and columns in a grid container. It can be set for both rows and columns.
+
+88. What is the flex-direction property in CSS Flexbox?
+Answer: The flex-direction property defines the direction in which flex items are placed in the flex container. Values include row, row-reverse, column, and column-reverse.
+
+89. What is the flex-wrap property in CSS Flexbox?
+Answer: The flex-wrap property specifies whether flex items should wrap onto multiple lines or stay on a single line. Values include nowrap, wrap, and wrap-reverse.
+
+90. What is the align-content property in CSS Flexbox?
+Answer: The align-content property aligns flex lines within a flex container when there is extra space on the cross axis. Values include flex-start, center, flex-end, space-between, space-around, and stretch.
+
+91. What is the content property in CSS?
+Answer: The content property is used with pseudo-elements (::before and ::after) to insert generated content into the document.
+
+92. What is the cursor property in CSS?
+Answer: The cursor property specifies the type of cursor to be displayed when the mouse pointer is over an element. Values include pointer, default, text, wait, and crosshair.
+
+93. What is the outline property in CSS?
+Answer: The outline property is a shorthand for outline-width, outline-style, and outline-color. It defines an outline around an element, similar to a border but not affecting layout.
+
+94. What is the visibility property in CSS?
+Answer: The visibility property controls whether an element is visible or hidden. Values include visible, hidden, and collapse.
+
+95. What is the text-indent property in CSS?
+Answer: The text-indent property specifies the indentation of the first line of text in a block-level element. Example: text-indent: 20px;.
+
+96. What is the letter-spacing property in CSS?
+Answer: The letter-spacing property sets the space between characters in text. Example: letter-spacing: 2px;.
+
+97. What is the word-spacing property in CSS?
+Answer: The word-spacing property sets the space between words in text. Example: word-spacing: 5px;.
+
+98. What is the text-overflow property in CSS?
+Answer: The text-overflow property specifies how overflowed content that is not visible is signaled to the user. Common values are clip and ellipsis.
+
+99. What is the resize property in CSS?
+Answer: The resize property allows users to resize an element. It can be set to none, both, horizontal, or vertical.
+
+100. What is the filter property in CSS?
+Answer: The filter property applies graphical effects like blur, brightness, and contrast to elements. Example: filter: blur(5px);.
